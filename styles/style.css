@@ -1,0 +1,113 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+    background-color: #e6e6e6;
+    font-family: "Lato", sans-serif;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 305px;
+    grid-template-rows: 420px 230px 220px 395px 480px;
+    gap: 30px;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.box{
+    border-radius: 10px;
+    box-shadow: 5px 1px 5px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+}
+
+.box img{
+    border-radius: 50%;
+    width: 40px;
+}
+
+.info{
+    display: inline-block;
+    width: 70%;
+    height: 30px;
+    margin-left: 10px;
+    vertical-align: 10px;
+}
+
+.info p:nth-child(1){
+    font-size: 0.9em;
+    margin-bottom: 3px; 
+    font-weight: bold;
+}
+
+.info p:nth-child(2){
+    font-size: 0.7em;
+    color: #a5a3a3;
+}
+
+.box h2{
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 25px;
+    margin: 10px 0;
+}
+
+.box p:nth-child(4){
+    font-size: 0.75em;
+    line-height: 15px;
+}
+
+.daniel{
+    background-color: #733FC8;
+    color: white;
+}
+
+.daniel img{
+    border: 3px solid rgba(255, 255, 255, 0.308);
+}
+
+.daniel p, .jonathan p, .patrick{
+    color: #dadada;
+}
+
+
+.jonathan{
+    background-color: #49556B;
+    color: white;
+}
+
+.jonathan h2{
+    font-size: 1.1em;
+}
+
+.jeanette, .kira{
+    background-color: white;
+    color: #484E5D;
+}
+
+.patrick{
+    background-color: #191F2D;
+}
+
+.patrick img{
+    border: 3px solid #6547AA;
+}
+
+.kira{
+    margin-bottom: 30px;
+}
+
+.jeanette p, .kira p{
+    color: #838383;
+}
+
+.jeanette p:nth-child(1), .jeanette h2, .kira p:nth-child(1), .kira h2{
+    color: #505767;
+}
