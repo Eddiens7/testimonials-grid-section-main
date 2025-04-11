@@ -16,6 +16,7 @@ main {
 
 .daniel {
     grid-area: daniel;
+    background: url('../images/bg-pattern-quotation.svg') #733FC8 no-repeat 400px top;
 }
 
 .jonathan {
